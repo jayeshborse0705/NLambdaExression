@@ -22,6 +22,11 @@
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine("Getting Average of all the person's age....");
             personDetails.AverageAge();
+
+            //UC5
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Checking whether a person having name 'Rohan' exists or not...");
+            personDetails.SpecificName();
         }
     
     }
