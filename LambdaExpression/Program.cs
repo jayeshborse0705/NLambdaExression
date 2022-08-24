@@ -12,6 +12,16 @@
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine("Retrieving 2 records for age less than 60");
             personDetails.AgeLessThan60();
+
+            //UC3
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Checking whether any person is teenager or not.....");
+            personDetails.AgeBetween();
+
+            //UC4
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("Getting Average of all the person's age....");
+            personDetails.AverageAge();
         }
     
     }
